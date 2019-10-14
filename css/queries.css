@@ -1,0 +1,304 @@
+/* Small phones: from 0 to 480px */
+
+@media only screen and (min-width: 320px) {
+}
+
+/* Small phones to small tablet: from 481px to 767px */
+
+@media only screen and (min-width: 481px) {
+    /* REUSABLE COMPONENTS*/
+    section {
+        padding: 70px 30px;
+    }
+
+  
+
+
+    /*-----------------------*/
+    /*-------MEETUS----------*/
+    /*-----------------------*/
+    /* ------OUR TEAM-------*/
+    .instructor {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    .instructor-photo {
+        width: 50%;
+    }
+    .instructor-description {
+        width: 100%;
+    }
+
+    h2.bigger-font{
+        font-size: 200%;
+    }
+    /* ------GALLERY-------*/
+    .gallery {
+        padding: 50px 0;
+    }
+    .gallery-item {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-item a {
+        width: 33.33%;
+    }
+    .gallery-item img {
+        margin-bottom: 0;
+    }
+    /*-----------------------*/
+    /*-------CONTACT----------*/
+    /*-----------------------*/
+    .contact-form--content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        width: 60%;
+    }
+    .contact-content h3{
+        font-size: 125%;
+    }
+}
+
+/*special case: from 620pxpx to 650px */
+@media only screen and (min-width: 620px){
+    .plan{
+        font-size: 60%;
+       
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (min-width: 768px) {
+    /* REUSABLE COMPONENTS*/
+    h2.title-section {
+        margin-bottom: 55px;
+        font-size: 260%;
+    }
+    p.description-section {
+        width: 70%;
+    }
+    #logo-center img {
+        max-width: 100px;
+    }
+
+    section{
+        padding: 90px 15px;
+    }
+    /*-----------------------*/
+    /*-------HOMEPAGE----------*/
+    /*-----------------------*/
+    .tile h1 {
+        font-size: 160%;
+    }
+    /*-----------------------*/
+    /*-------MEETUS----------*/
+    /*-----------------------*/
+    h2.bigger-font{
+        font-size: 220%;
+    }
+    /* ------OFFER-------*/
+    .advantages-offer--list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .advantages-offer--list li {
+        width: 45%;
+    }
+    /* ------OUR TEAM-------*/
+    .our-team--content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .our-team--content h2.title-section {
+        width: 100%;
+    }
+    .instructor {
+        width: 40%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .instructor-photo {
+        width: 100%;
+    }
+    .instructor-description {
+        width: 100%;
+    }
+    /* ------GALLERY-------*/
+    .gallery-item a {
+        width: 25%;
+        background-color: #000;
+    }
+    .gallery-item img {
+        opacity: 0.5;
+        width: 100%;
+        height: auto;
+        transition: all .5s ease-in-out;
+    }
+    .gallery-item img:hover {
+        opacity: 1;
+        transform: scale(1.03);
+    }
+    /*-----------------------*/
+    /*-------FITNESS----------*/
+    /*-----------------------*/
+    .title-timetable {
+        font-size: 130%;
+        background-color: #dedede;
+        padding: 20px;
+    }
+    .list-training p {
+        font-size: 120%;
+       
+    }
+    .plan{
+        overflow-x: visible;
+        font-size: 83%;
+           
+        }
+    /*-----------------------*/
+    /*-------PRICE----------*/
+    /*-----------------------*/
+    .price-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .price-tile {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+   
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (min-width: 1024px) {
+    /* REUSABLE COMPONENTS*/
+    #logo-center img {
+        max-width: 110px;
+    }
+    section{
+        padding: 110px 15px;
+    }
+
+    h2.title-section {
+        font-size: 300%;
+    }
+    /*-----------------------*/
+    /*-------HOMEPAGE----------*/
+    /*-----------------------*/
+    .tile h1 {
+        font-size: 170%;
+    }
+    /*-----------------------*/
+    /*-------MEETUS----------*/
+    
+    /*-----------------------*/
+    /* ------OUR TEAM-------*/
+    .instructor {
+        width: 22%;
+    }
+    /* ------OFFER-------*/
+    .advantages-offer--list li {
+        width: 30%;
+    }
+    /* ------PARTNERS-------*/
+    .partners-logo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .timetable h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    /* ------FOOTER-------*/
+    footer {
+        background-size: contain;
+    }
+    /*-----------------------*/
+    /*-------PRICE----------*/
+    /*-----------------------*/
+    .price-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .price-tile {
+        width: 24%;
+        margin-bottom: 20px;
+    }
+    .price-tile p {
+        font-size: 180%;
+    }
+    /*-----------------------*/
+    /*-------FITNESS----------*/
+    /*-----------------------*/
+    .list-training p {
+        font-size: 140%;
+    }
+    /*-----------------------*/
+    /*-------CONTACT----------*/
+    /*-----------------------*/
+    .contact-form {
+        width: 40%;
+    }
+    .contact-maps--content {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .maps {
+        width: 60%;
+    }
+    form {
+        width: 100%;
+    }
+    .maps-adress {
+        margin-bottom: 40px;
+    }
+    .lesson{
+        width: 60%;
+    }
+}
+
+/* Big tablet to 1200px (widths smaller that the 1140px row */
+
+@media only screen and (min-width: 1200px) {
+    /*-----------------------*/
+    /*-------HOMEPAGE----------*/
+    /*-----------------------*/
+    .tile h1 {
+        font-size: 200%;
+    }
+    /* REUSABLE COMPONENTS*/
+    .top-line {
+        padding: 20px 0px;
+    }
+        /*-----------------------*/
+    /*-------FOOTER----------*/
+    /*-----------------------*/
+    .footer-content{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    .lesson{
+        width: 60%;
+    }
+}
+
+
